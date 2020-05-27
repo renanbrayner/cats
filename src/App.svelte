@@ -8,15 +8,15 @@
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
 		margin: auto;
 		width: 75vw;
 		padding-top: 64px;
 	}
 
-	@media (min-width: 640px) {
+	@media (max-width: 768px) {
 		main {
-			max-width: none;
+			padding: 0;
+			width: 95vw;
 		}
 	}
 </style>

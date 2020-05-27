@@ -19,11 +19,21 @@
   img {
     height: 50vh;
     width: auto;
+    text-align: center;
   }
 
   .cats {
     height: 50vh;
     margin-bottom: 64px;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      margin-top: 72px;
+      width: 95vw;
+      height: auto;
+      max-height: 60vh;
+    }
   }
 </style>
 

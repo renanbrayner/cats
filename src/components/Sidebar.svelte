@@ -56,7 +56,38 @@
 
   h1 {
     margin-top: 16px;
-    font-size: 2rem
+    font-size: 2rem;
+
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: -14px;
+  }
+
+  @media (max-width: 768px) {
+
+    nav {
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 72px;
+
+      flex-direction: row;
+    }
+
+    .logo {
+      width: 72px;
+      height: 100%;
+    }
+
+    h1 {
+      margin-top: initial;
+      margin-left: 16px;
+      writing-mode: initial;
+      text-orientation: initial;
+      letter-spacing: initial;
+    }
+
   }
 </style>
 
@@ -65,10 +96,10 @@
     <Cat />
   </div>
   <h1 style='color: {color}'>
-  C<br/>
-  A<br/>
-  T<br/>
-  S<br/>
+  C
+  A
+  T
+  S
   !
   </h1>
 </nav>

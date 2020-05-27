@@ -47,6 +47,25 @@
   button:active {
     filter: brightness(100%);
   }
+
+  @media (max-width: 768px) {
+    .fact {
+      flex-direction: column;
+      margin-top: calc(100% - 50%)
+    }
+
+    h2 {
+      margin-right: initial;
+      font-size: 1.1rem;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+
+    button {
+      padding: 8px;
+      font-size: 1.2rem;
+    }
+  }
 </style>
 
 <div class='fact'>

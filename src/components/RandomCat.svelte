@@ -7,6 +7,8 @@
     .then(data => src = data.file);
   }
 
+  getCatPhoto();
+
   window.setInterval(function(){
     getCatPhoto();
   }, 6000);
@@ -26,5 +28,5 @@
 </style>
 
 <div class='cats'>
-  <img src={src} alt='random cat image'/>
+  <img src={src} alt='random cat'/>
 </div>

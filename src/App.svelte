@@ -2,7 +2,6 @@
 	import RandomCat from './components/RandomCat.svelte';
 	import RandomFact from './components/RandomFact.svelte';
 	import Sidebar from './components/Sidebar.svelte';
-	export let name;
 </script>
 
 <style>

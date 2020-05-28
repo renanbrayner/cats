@@ -64,6 +64,7 @@
     button {
       padding: 8px;
       font-size: 1.2rem;
+      margin-bottom: 8px;
     }
   }
 </style>

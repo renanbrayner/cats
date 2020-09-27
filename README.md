@@ -6,4 +6,6 @@
 
 Random cats and random cats facts for cat lovers!
 
+![Screenshot](./screenshot.png)
+
 Check it out live: [https://randomcats.netlify.app/](https://randomcats.netlify.app/).
